@@ -1,3 +1,32 @@
+# Hướng dẫn chạy code 
+Dự án sử dụng **Python + Selenium** để crawl dữ liệu kinh tế/market. Làm theo các bước dưới đây để chạy mã thành công.
+
+---
+
+## ✅ 1. Cài đặt Python & Thư viện
+
+### 1.1. Cài Python 3.x  
+Tải tại: https://www.python.org/downloads/
+
+#### 1.2. Cài các thư viện cần thiết
+ ```pip install -r requirements.txt ```
+ 
+- Nếu chưa có requirements.txt
+
+ ```pip freeze > requirements.txt ```
+ ## Cài đặt WebDriver (ChromeDriver)
+ Selenium cần WebDriver để điều khiển trình duyệt.
+ 
+ 1  Kiểm tra phiên bản Chrome → Settings → About Chrome (Ví dụ: Version 121.x)
+
+ 2 Tải ChromeDriver tương ứng https://googlechromelabs.github.io/chrome-for-testing/#stable
+
+ 3 Đặt WebDriver vào thư mục dự án
+project/
+  ├── crawl.py
+  ├── chromedriver.exe
+  ├── requirements.txt
+
 # I. Lên ý tưởng và Mục tiêu
 
 ## 1.1 Vấn đề cốt lõi (The Problem)
