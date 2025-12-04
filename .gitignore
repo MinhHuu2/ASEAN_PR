@@ -255,3 +255,50 @@ df_final_events = df_events[[
 
 df_final_events.to_csv('macro_events_summary_history.csv', index=False)
 print(f"\n✅ Đã tạo file 'macro_events_summary_history.csv'.")
+------------------------------------------- Dữ liệu thị trường ----------------------------------------------------
+import yfinance as yf
+import pandas as pd
+from datetime import datetime
+from dateutil.relativedelta import relativedelta 
+import numpy as np
+import os
+
+# --- 1. THAM SỐ VÀ TẢI DỮ LIỆU LỊCH SỬ (24 THÁNG) ---
+end_date = datetime.now().strftime('%Y-%m-%d')
+start_date = (datetime.now() - relativedelta(months=24)).strftime('%Y-%m-%d') 
+
+# Ticker cho 3 chỉ số cần 24 tháng
+tickers_market = {
+    'S&P 500': '^GSPC',
+    'DXY Index': 'DX-Y.NYB',
+    'USD/VND Rate': 'VND=X'
+}
+
+print(f"Bắt đầu tải dữ liệu thị trường từ ngày: {start_date}...")
+
+# Khởi tạo DataFrame rỗng để gộp dữ liệu
+df_market = pd.DataFrame() 
+
+# --- SỬA ĐỔI: Tải Từng Ticker một để đảm bảo không nhầm lẫn cột ---
+for name, ticker in tickers_market.items():
+    print(f"-> Tải dữ liệu cho {name} ({ticker})...")
+    
+    # 1. Tải dữ liệu, chỉ lấy cột Close
+    data = yf.download(ticker, start=start_date, end=end_date)['Close']
+    
+    # 2. Chuyển Series thành DataFrame và đổi tên cột
+    df_temp = pd.DataFrame(data)
+    df_temp.columns = [name]
+
+    # 3. Gộp vào DataFrame chính
+    if df_market.empty:
+        df_market = df_temp
+    else:
+        df_market = df_market.join(df_temp, how='outer')
+
+# Xử lý các ngày nghỉ (điền giá trị gần nhất) và loại bỏ dòng rỗng
+df_market = df_market.ffill().dropna()
+
+# Lưu file cuối cùng
+df_market.to_csv('market_trends_history_24m.csv', index=True, index_label='Date')
+print("Tạo 'market_trends_history_24m.csv' thành công.")
