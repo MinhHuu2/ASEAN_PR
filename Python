@@ -255,7 +255,9 @@ df_final_events = df_events[[
 
 df_final_events.to_csv('macro_events_summary_history.csv', index=False)
 print(f"\n✅ Đã tạo file 'macro_events_summary_history.csv'.")
+
 ------------------------------------------- Dữ liệu thị trường ----------------------------------------------------
+
 import yfinance as yf
 import pandas as pd
 from datetime import datetime
