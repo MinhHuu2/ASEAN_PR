@@ -36,7 +36,7 @@ Mục đích: Theo dõi xu hướng giá và tính toán tương quan.
 ---
 ## 📄 Power BI Report (PDF Preview)
 
-<embed src="reports/PR_ASEAN.pdf" width="100%" height="800px" type="application/pdf">
+<embed src="report_PR_ASEAN.pdf" width="100%" height="800px" type="application/pdf">
 
 # III. Tổng hợp các Insight
 ## 3.1 Phản ứng của Thị trường với sự bất ngờ so với kỳ vọng
