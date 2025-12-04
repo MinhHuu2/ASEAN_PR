@@ -34,9 +34,10 @@ Mục đích: Theo dõi xu hướng giá và tính toán tương quan.
 | **DXY Index (DX-Y.NYB)** | Đo lường Sức mạnh của Đồng Đô la Mỹ (USD)|
 | **USD/VND Rate (VND=X)** |Đo lường Tỷ giá hối đoái|
 ---
-## 📄 Power BI Report (PDF Preview)
+# 📄 Power BI Report (PDF Preview)
 
-<embed src="reports_PR_ASEAN.pdf" width="100%" height="800px" type="application/pdf">
+📄 [Xem báo cáo PR ASEAN (PDF)](reports/PR_ASEAN.pdf)
+
 
 # III. Tổng hợp các Insight
 ## 3.1 Phản ứng của Thị trường với sự bất ngờ so với kỳ vọng
