@@ -36,7 +36,7 @@ Mục đích: Theo dõi xu hướng giá và tính toán tương quan.
 ---
 # III. Tổng hợp các Insight
 ## 3.1 Phản ứng của Thị trường với sự bất ngờ so với kỳ vọng
-- Quan sát Định lượng: Phản ứng trung bình của S&P 500, DXY là $-0.1\%$ (khi tin xấu) và $-0.07\%$ (khi tin tốt).
+Quan sát Định lượng: Phản ứng trung bình của S&P 500, DXY là $-0.1\%$ (khi tin xấu) và $-0.07\%$ (khi tin tốt).
 ### 3.1.1 Một số lý do thường được các phân tích & nhà đầu tư nhìn nhận:
 
 -Dữ liệu quá tốt → lo lãi suất cao / Fed thắt chặt hơn: Nếu tăng trưởng/lao động nóng lên, nhà đầu tư lo ngại lạm phát và kỳ vọng Fed sẽ giữ lãi suất cao hoặc tăng — bất lợi cho cổ phiếu.
