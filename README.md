@@ -26,7 +26,17 @@ project/
   ├── crawl.py
   ├── chromedriver.exe
   ├── requirements.txt
+# Tóm tắt 
+Chủ đề: Định lượng sự "Bất ngờ" Vĩ mô và Hệ quả Liên thị trường
 
+- Cơ chế Phản ứng Ngược (Good News is Bad News): Phân tích 24 tháng qua cho thấy thị trường Mỹ đang vận hành trong trạng thái "nhạy cảm lãi suất" cực độ. Các dữ liệu kinh tế tích cực (Positive Surprise) thường dẫn đến phản ứng tiêu cực của S&P 500 (trung bình -0.07%) do lo ngại về lạm phát dai dẳng và kịch bản "Lãi suất cao hơn trong thời gian dài hơn" (Higher for longer).
+- Áp lực Tiêu cực Chiếm ưu thế: Với tỷ lệ 56.25% Negative Surprise, nền kinh tế Mỹ đang bộc lộ những dấu hiệu hụt hơi so với kỳ vọng lạc quan của giới phân tích, đặc biệt là ở mảng Tiêu dùng (Retail Sales) và Sản xuất (PMI).
+
+- Ma trận Rủi ro Vĩ mô: CPI tiếp tục là biến số gây sốc lớn nhất và dẫn dắt tâm lý rủi ro (Risk Appetite) toàn cầu. Trong khi đó, GDP duy trì sự ổn định, cho thấy sự "bất ngờ" chủ yếu nằm ở các yếu tố chi phí và tiêu dùng hơn là tăng trưởng tổng thể.
+
+- Điểm bất thường USD/VND - DXY: Hệ số tương quan -0.52 cho thấy sự phân hóa rõ rệt giữa bối cảnh quốc tế và nội địa. Trong khi DXY có xu hướng hạ nhiệt, tỷ giá USD/VND lại chịu áp lực tăng từ các yếu tố nội tại (chênh lệch lãi suất âm, áp lực khối ngoại), đòi hỏi một chiến lược quản trị rủi ro tỷ giá chủ động hơn từ phía NHNN.
+
+- Khuyến nghị Chiến lược: Nhà đầu tư cần đặc biệt cẩn trọng trong các tuần công bố CPI và báo cáo Việc làm, đồng thời ưu tiên các nhóm cổ phiếu có bảng cân đối kế toán mạnh để chống chọi với biến động liên thị trường phức tạp trong nửa đầu năm 2026.
 # I. Lên ý tưởng và Mục tiêu
 
 ## 1.1 Vấn đề cốt lõi (The Problem)
