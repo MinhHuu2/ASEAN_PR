@@ -69,7 +69,7 @@ Mục đích: Theo dõi xu hướng giá và tính toán tương quan.
 
 
 # III. Tổng hợp các Insight
-## 3.1 Phản ứng của Thị trường với sự bất ngờ so với kỳ vọng
+## 3.1 Cơ chế phản ứng ngược của thị trường trong kỷ nguyên lãi suất cao
 Quan sát Định lượng: Phản ứng trung bình của S&P 500, DXY là $-0.1\%$ (khi tin xấu) và $-0.07\%$ (khi tin tốt).
 ### 3.1.1 Một số lý do thường được các phân tích & nhà đầu tư nhìn nhận:
 
@@ -172,15 +172,8 @@ Biểu đồ cho thấy mối quan hệ nghịch đảo giữa S&P 500 và DXY l
 Đây là một trong những tín hiệu quan trọng giúp nhà phân tích dự báo hướng đi của thị trường chứng khoán Mỹ trong bối cảnh kinh tế biến động mạnh.
 ## 3.5 Kết luận về mức tương quan giữa USD/VND và DXY (-0.52)
 
-Hệ số tương quan –0.52 cho thấy mối quan hệ nghịch đảo mức độ trung bình giữa USD/VND Rate và DXY Index. Nghĩa là:
-- Khi DXY tăng (đồng USD mạnh lên trên thị trường quốc tế), thì tỷ giá USD/VND có xu hướng giảm nhẹ hoặc ít tăng.
-- Khi DXY giảm, USD/VND có xu hướng tăng.
+Thông thường USD/VND và DXY có tương quan dương thuận chiều. Tuy nhiên, con số -0.52 trong 24 tháng qua phản ánh một giai đoạn đặc biệt: Trong khi DXY hạ nhiệt từ đỉnh, tỷ giá USD/VND lại chịu áp lực tăng do các yếu tố nội tại (Chênh lệch lãi suất VND-USD âm sâu, nhu cầu thanh toán ngoại tệ cuối năm, và áp lực rút vốn của khối ngoại)
+## 3.6 Khuyến nghị nhà đầu tư
+Chiến thuật giao dịch: Khi DXY tiệm cận vùng kháng cự (ví dụ 106-107), nhà đầu tư nên bắt đầu tích lũy các nhóm cổ phiếu nhạy cảm với tỷ giá và lãi suất như Bất động sản, Chứng khoán vì kỳ vọng áp lực vĩ mô sắp đạt đỉnh.
 
-Mức –0.52 không quá mạnh, nhưng đủ để phản ánh một mối quan hệ ổn định, phản ánh cơ chế điều hành tỷ giá của Việt Nam:
-- VND được neo theo rổ tiền tệ, trong đó USD chiếm tỷ trọng lớn nhưng Ngân hàng Nhà nước kiểm soát chặt chẽ mức biến động.
-- Do đó USD/VND không biến động mạnh theo DXY, nhưng vẫn giữ xu hướng ngược chiều có ý nghĩa.
-
-Ý nghĩa cho phân tích thị trường
-- DXY không phải yếu tố duy nhất ảnh hưởng USD/VND, nhưng có dấu hiệu tác động đáng kể.
-- Trong bối cảnh USD mạnh lên toàn cầu, tỷ giá USD/VND khó tăng mạnh và biến động bị điều tiết.
-- Khi xây dự phóng tỷ giá, cần kết hợp thêm các biến số nội địa (lãi suất VND/USD, cán cân thương mại, dòng vốn ngoại…).
+Theo dõi biến số sớm: Retail Sales và PMI là các chỉ báo dẫn dắt (Leading indicators) giúp dự báo sớm kết quả kinh doanh của nhóm ngành Bán lẻ và Sản xuất trên sàn HOSE.
